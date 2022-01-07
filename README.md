@@ -1,4 +1,4 @@
-Kotlin Source Code Location: RealEstate-Communication-System/app/src/main/java/com/example/kw_prototype
+Kotlin Source Code Location: ~/app/src/main/java/com/example/kw_prototype
 
 This system is a set of two native Android applications intended to streamline communcation and understanding between Real Estate agents and their clients.
 
