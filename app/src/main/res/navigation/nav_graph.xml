@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/questionsFragment"
+        android:name="com.example.kw_prototype.QuestionsFragment"
+        android:label="Questions"
+        tools:layout="@layout/fragment_questions" />
+    <fragment
+        android:id="@+id/timelineFragment"
+        android:name="com.example.kw_prototype.TimelineFragment"
+        android:label="Roadmap"
+        tools:layout="@layout/fragment_timeline" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kw_prototype.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/home_to_update"
+            app:destination="@id/updateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.example.kw_prototype.UpdateFragment"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" />
+</navigation>

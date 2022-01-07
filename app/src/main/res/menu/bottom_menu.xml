@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/timelineFragment"
+        android:title="Roadmap"
+        android:icon="@drawable/ic_timeline"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/questionsFragment"
+        android:title="Questions"
+        android:icon="@drawable/ic_chat"
+        android:iconTint="@color/white"/>
+
+</menu>
